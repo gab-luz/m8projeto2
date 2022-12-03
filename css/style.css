@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+h3 img{
+    align-items: center;
+    justify-content: center;
+}
+
+header h3{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    max-width: 485px;
+    justify-content: space-around;
+    width: 100%;
+    margin: 15px auto;
+}
+
+form input[type="submit"]{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 34px;
+}
+
+table{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: center;
+    padding: 5px 0px 5px 5px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th{
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+}
+
+tr td{
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#table-body{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+h3 img{
+    text-align: center;
+    height: 20px;
+}
+
+
+
+/* .lista-telefones{
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    background-color: yellow;
+} */
+
+/* #table-contacts{
+    margin: 0 auto;
+    border-color: 4px solid black;
+} */
+
